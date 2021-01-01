@@ -238,10 +238,15 @@ footer::after {
     padding: 0;
   }
 
-  header {
-    display: none;
+  .navbar {
+    padding: 10px;
   }
-
+  .navbar-toggler {
+    color: rgba(0, 0, 0, 0.4);
+  }
+  .navbar-toggler-icon {
+    color: rgba(0, 0, 0, 0.4);
+  }
   #banner .img-wrap {
     width: 100%;
   }
@@ -276,8 +281,13 @@ footer::after {
   #banner::after {
     content: unset;
   }
-
+  .connect-button-box {
+    padding-bottom: 30px;
+  }
   footer::after {
     content: unset;
+  }
+  .footer-content-list {
+    text-align: center;
   }
 }
